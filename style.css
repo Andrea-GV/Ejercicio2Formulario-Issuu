@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding; 0;
+}
+.header{
+    width: 100 vw;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    text-decoration: none;
+    align-content: center;
+    border-bottom-style: double;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    align-content: left;
+}
+.right{
+    align-content: right;
+}

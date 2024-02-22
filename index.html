@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Issuu</title>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <a href="http://issuu.com" alt="issuu-logo">
+            <img class="logo" src="./fotos/descarga.png" alt="issuu"></a>
+        </div>
+        <div class="right">
+            <span>Already a user?</span>
+            <a href="http://issuu.com/sign-in">sign in</a>
+        </div>
+    </header>
+    <section>
+        <h2>Create an Issuu Account.</h2>
+        <div>
+         <a href="http://myaccount.google.com/">
+         <img src="./fotos/google.png" alt="sign in google"></a>
+        </div>
+        <div>
+            <a href="http://facebook.com">
+                <img src="./fotos/facebook.png" alt="facebook">
+            </a>
+        </div>
+        <p>or with email</p>
+        <form>
+            <legend>Email</legend>
+            <input type="email" name="email" id="email">
+            <legend>Password</legend>
+            <input type="password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"> 
+                <span class="material-symbols-outlined">
+                visibility
+                </span>
+            <div>
+                <input type="checkbox" name="checkbox" id="checkbox"> I accept the <a href="https://issuu.com/legal/terms">Terms of Service</a> and the <a href="https://issuu.com/legal/terms/pro">Professional Terms of Service</a>.
+            </div>
+            <button>Create account</button>
+           
+        </form>
+    </section>
+</body>
+</html>
